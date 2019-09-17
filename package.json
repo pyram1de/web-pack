@@ -1,0 +1,33 @@
+{
+  "name": "web-pack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --env development",
+    "start": "webpack-dev-server --env development",
+    "start-w": "nodemon --exec \"webpack-dev-server --env development\"",
+    "build-prod": "nodemon --exec \"webpack --env production\"",
+    "run-prod": "nodemon --exec \"webpack-dev-server --env production\""
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^9.6.1",
+    "css-loader": "^3.2.0",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.8.0",
+    "nodemon": "^1.19.2",
+    "postcss-loader": "^3.0.0",
+    "style-loader": "^1.0.0",
+    "ts-loader": "^6.0.4",
+    "tslint": "^5.20.0",
+    "tslint-loader": "^3.5.4",
+    "typescript": "^3.6.2",
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.8",
+    "webpack-dev-server": "^3.8.0",
+    "webpack-merge": "^4.2.2"
+  }
+}
